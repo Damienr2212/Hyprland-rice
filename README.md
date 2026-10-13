@@ -13,3 +13,7 @@
 <h2>Screen Waybar</h2>
 
 <img src="Screenshot/waybar_raw.png">
+
+<h2>Screen Config Files</h2>
+
+<img src="Screenshot/Bind_files.png">
