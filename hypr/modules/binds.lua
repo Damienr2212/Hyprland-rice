@@ -38,6 +38,8 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
+-- Screenshot
+hl.bind(mainMod .. " + ALT + S",         hl.dsp.exec_cmd("grim -g "$(slurp)" - | swappy -f -'"))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
