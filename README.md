@@ -6,7 +6,8 @@
 <ul>
   <li>Ajouter le module Network waybar</li>
   <li>Finaliser les workspaces/transitions</li>
-  <li>Modifier et ajouter au demarage le fileManager dans la console</li>
+  <li>Modifier et ajouter au demarage le fileManager dans la console <strong>sudo pacman -S yazi
+</strong></li>
 </ul>
 
 
